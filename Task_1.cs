@@ -4,6 +4,7 @@ class Hello
 {
     static void Main()
     {
-        Console.WriteLine("Привет ДонНУ!");
+        Console.OutputEncoding = System.Text.Encoding.Unicode;
+        Console.WriteLine("Привiт ДонНУ!");
     }
 }
